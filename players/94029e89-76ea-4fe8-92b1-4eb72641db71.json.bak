@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -843.9498901367188,
-        "Y": 124.0,
-        "Z": 80.96700286865234
+        "X": -862.6033325195312,
+        "Y": 137.1149444580078,
+        "Z": 76.41212463378906
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -8.909418106079102,
+        "Yaw": -0.932934582233429,
         "Roll": 0.0
       }
     },
@@ -112,9 +112,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.062255737848555176,
-        "Y": 0.0,
-        "Z": -0.10070781122560396
+        "X": 0.0,
+        "Y": -1.9418297055409637,
+        "Z": 0.0
       }
     },
     "Player": {
@@ -148,13 +148,6 @@
               "Quantity": 1,
               "Durability": 31.92000000000003,
               "MaxDurability": 75.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Wood_Blackwood_Ornate",
-              "Quantity": 35,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -276,6 +269,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "21": {
+              "Id": "Soil_Dirt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "20": {
               "Id": "Rock_Chalk",
               "Quantity": 20,
@@ -373,8 +373,8 @@
               "OverrideDroppedItemAnimation": false
             },
             "7": {
-              "Id": "Soil_Dirt",
-              "Quantity": 1,
+              "Id": "Wood_Blackwood_Ornate",
+              "Quantity": 19,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -477,7 +477,7 @@
             }
           }
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 7,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -537,11 +537,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -847.0606689453125,
-              "Y": 123.2500991821289,
-              "Z": 82.1517333984375,
-              "Pitch": -0.2903970777988434,
-              "Yaw": -1.7855174541473389,
+              "X": -843.9588623046875,
+              "Y": 124.0,
+              "Z": 80.98107147216797,
+              "Pitch": -0.552897572517395,
+              "Yaw": -1.8408344984054565,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -592,6 +592,9 @@
           }
         },
         "DiscoveredZones": [
+          "Zone1_Temple",
+          "ForgottenTemple",
+          "Zone1_Tier1",
           "Zone2_Tier1",
           "Zone3_Tier1",
           "Zone1_Tier2",
@@ -601,14 +604,19 @@
           "Zone4_Tier5",
           "Zone1_Spawn",
           "Zone2_Shore",
-          "Zone1_Tier1",
+          "Zone1_Shore",
           "Zone2_Shallow_Ocean",
-          "Zone1_Shallow_Ocean",
-          "Zone1_Temple",
-          "ForgottenTemple",
-          "Zone1_Shore"
+          "Zone1_Shallow_Ocean"
         ],
         "DiscoveredInstances": [
+          {
+            "$binary": "WZiKAg00StmgChxpO7esrg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "obk+TtHLQjmzocl56Ucesg==",
+            "$type": "04"
+          },
           {
             "$binary": "tKDaMsKcSwGG5mLhzwRnhA==",
             "$type": "04"
@@ -623,14 +631,6 @@
           },
           {
             "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "WZiKAg00StmgChxpO7esrg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "obk+TtHLQjmzocl56Ucesg==",
             "$type": "04"
           }
         ],
@@ -718,14 +718,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0,
-          "Modifiers": {
-            "*Weapon_0": {
-              "Id": "Static",
-              "CalculationType": "Additive",
-              "Amount": 27.0
-            }
-          }
+          "Value": 0.0
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -743,8 +736,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.552897572517395,
-        "Yaw": -1.8408344984054565,
+        "Pitch": -0.8590468168258667,
+        "Yaw": -1.6973328590393066,
         "Roll": 0.0
       }
     }
