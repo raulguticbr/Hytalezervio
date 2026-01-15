@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -862.6033325195312,
+        "X": -852.170654296875,
         "Y": 136.0,
-        "Z": 76.41212463378906
+        "Z": 80.20634460449219
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -0.932934582233429,
+        "Yaw": 1.3987667560577393,
         "Roll": 0.0
       }
     },
@@ -269,16 +269,16 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "21": {
-              "Id": "Soil_Dirt",
-              "Quantity": 1,
+            "20": {
+              "Id": "Rock_Chalk",
+              "Quantity": 20,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "20": {
-              "Id": "Rock_Chalk",
-              "Quantity": 20,
+            "21": {
+              "Id": "Soil_Dirt",
+              "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -374,7 +374,7 @@
             },
             "7": {
               "Id": "Wood_Blackwood_Ornate",
-              "Quantity": 19,
+              "Quantity": 6,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -537,11 +537,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -862.6033325195312,
+              "X": -852.170654296875,
               "Y": 136.0,
-              "Z": 76.41212463378906,
-              "Pitch": -0.4915464520454407,
-              "Yaw": -1.6063339710235596,
+              "Z": 80.20634460449219,
+              "Pitch": -1.2247962951660156,
+              "Yaw": 2.1841650009155273,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -592,13 +592,6 @@
           }
         },
         "DiscoveredZones": [
-          "Zone1_Temple",
-          "ForgottenTemple",
-          "Zone1_Tier1",
-          "Zone2_Tier1",
-          "Zone3_Tier1",
-          "Zone1_Tier2",
-          "Zone4_Shore_Tier4",
           "Zone1_Tier3",
           "Zone4_Tier4",
           "Zone4_Tier5",
@@ -606,17 +599,16 @@
           "Zone2_Shore",
           "Zone1_Shore",
           "Zone2_Shallow_Ocean",
-          "Zone1_Shallow_Ocean"
+          "Zone1_Shallow_Ocean",
+          "Zone1_Temple",
+          "ForgottenTemple",
+          "Zone1_Tier1",
+          "Zone2_Tier1",
+          "Zone3_Tier1",
+          "Zone1_Tier2",
+          "Zone4_Shore_Tier4"
         ],
         "DiscoveredInstances": [
-          {
-            "$binary": "WZiKAg00StmgChxpO7esrg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "obk+TtHLQjmzocl56Ucesg==",
-            "$type": "04"
-          },
           {
             "$binary": "tKDaMsKcSwGG5mLhzwRnhA==",
             "$type": "04"
@@ -631,6 +623,14 @@
           },
           {
             "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "WZiKAg00StmgChxpO7esrg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "obk+TtHLQjmzocl56Ucesg==",
             "$type": "04"
           }
         ],
@@ -736,8 +736,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.4915464520454407,
-        "Yaw": -1.6063339710235596,
+        "Pitch": -1.2247962951660156,
+        "Yaw": 2.1841650009155273,
         "Roll": 0.0
       }
     }
