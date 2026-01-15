@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -842.8707275390625,
+        "X": -843.9498901367188,
         "Y": 124.0,
-        "Z": 81.18789672851562
+        "Z": 80.96700286865234
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -33.724342346191406,
+        "Yaw": -8.909418106079102,
         "Roll": 0.0
       }
     },
@@ -112,9 +112,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0036621022263855986,
+        "X": 0.062255737848555176,
         "Y": 0.0,
-        "Z": -0.05401600783918758
+        "Z": -0.10070781122560396
       }
     },
     "Player": {
@@ -143,18 +143,18 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "6": {
-              "Id": "Wood_Blackwood_Ornate",
-              "Quantity": 35,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "27": {
               "Id": "Weapon_Sword_Doomed",
               "Quantity": 1,
               "Durability": 31.92000000000003,
               "MaxDurability": 75.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Wood_Blackwood_Ornate",
+              "Quantity": 35,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
             "4": {
@@ -537,11 +537,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -571.2039184570312,
-              "Y": 113.60903930664062,
-              "Z": -360.3652038574219,
-              "Pitch": -0.2902970314025879,
-              "Yaw": 2.903313159942627,
+              "X": -847.0606689453125,
+              "Y": 123.2500991821289,
+              "Z": 82.1517333984375,
+              "Pitch": -0.2903970777988434,
+              "Yaw": -1.7855174541473389,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -592,33 +592,29 @@
           }
         },
         "DiscoveredZones": [
-          "ForgottenTemple",
-          "Zone1_Temple",
-          "Zone1_Shallow_Ocean",
-          "Zone2_Shallow_Ocean",
-          "Zone1_Shore",
           "Zone2_Tier1",
-          "Zone1_Spawn",
-          "Zone4_Tier5",
-          "Zone4_Tier4",
           "Zone3_Tier1",
-          "Zone4_Shore_Tier4",
           "Zone1_Tier2",
+          "Zone4_Shore_Tier4",
           "Zone1_Tier3",
+          "Zone4_Tier4",
+          "Zone4_Tier5",
+          "Zone1_Spawn",
           "Zone2_Shore",
-          "Zone1_Tier1"
+          "Zone1_Tier1",
+          "Zone2_Shallow_Ocean",
+          "Zone1_Shallow_Ocean",
+          "Zone1_Temple",
+          "ForgottenTemple",
+          "Zone1_Shore"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "WZiKAg00StmgChxpO7esrg==",
+            "$binary": "tKDaMsKcSwGG5mLhzwRnhA==",
             "$type": "04"
           },
           {
-            "$binary": "obk+TtHLQjmzocl56Ucesg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
+            "$binary": "H9bkxHOoSTWsQTruyW7/PQ==",
             "$type": "04"
           },
           {
@@ -626,11 +622,15 @@
             "$type": "04"
           },
           {
-            "$binary": "tKDaMsKcSwGG5mLhzwRnhA==",
+            "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
             "$type": "04"
           },
           {
-            "$binary": "H9bkxHOoSTWsQTruyW7/PQ==",
+            "$binary": "WZiKAg00StmgChxpO7esrg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "obk+TtHLQjmzocl56Ucesg==",
             "$type": "04"
           }
         ],
@@ -706,7 +706,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 8.899995803833008
+          "Value": 10.0
         },
         "Ammo": {
           "Id": "Ammo",
@@ -718,7 +718,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 1.0,
+          "Value": 0.0,
           "Modifiers": {
             "*Weapon_0": {
               "Id": "Static",
@@ -733,7 +733,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": -0.1499999761581421
+          "Value": 0.0
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -743,8 +743,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.36914724111557007,
-        "Yaw": -1.523018717765808,
+        "Pitch": -0.552897572517395,
+        "Yaw": -1.8408344984054565,
         "Roll": 0.0
       }
     }
