@@ -1,0 +1,916 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "illoyokse"
+    },
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "FruitVeggie_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 3.2445108890533447,
+          "SinceLastDamage": 0.05590510368347168,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/Stamina/Tiny.png",
+          "Invulnerable": false
+        },
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 3.2445108890533447,
+          "SinceLastDamage": 1.7559223175048828,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "illoyokse",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -651.4156494140625,
+        "Y": 39.0,
+        "Z": 1869.5325927734375
+      },
+      "Rotation": {
+        "Pitch": -0.05021572858095169,
+        "Yaw": 10.980223655700684,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Warrior",
+          "TranslationKey": "server.npcRoles.Trork_Warrior.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768432943832,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Sentry",
+          "TranslationKey": "server.npcRoles.Trork_Sentry.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768432950503,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Shaman",
+          "TranslationKey": "server.npcRoles.Trork_Shaman.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768432963681,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Chieftain",
+          "TranslationKey": "server.npcRoles.Trork_Chieftain.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768432963881,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Turkey",
+          "TranslationKey": "server.npcRoles.Turkey.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433504245,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Sand_Guard",
+          "TranslationKey": "server.npcRoles.Skeleton_Sand_Guard.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768433737547,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Gecko",
+          "TranslationKey": "server.npcRoles.Gecko.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433756009,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Antelope",
+          "TranslationKey": "server.npcRoles.Antelope.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433796666,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Warthog",
+          "TranslationKey": "server.npcRoles.Warthog.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433839862,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Warthog_Piglet",
+          "TranslationKey": "server.npcRoles.Warthog_Piglet.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433840163,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Scarak_Seeker",
+          "TranslationKey": "server.npcRoles.Scarak_Seeker.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768433873118,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skrill",
+          "TranslationKey": "server.npcRoles.Skrill.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768433925235,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Lizard_Sand",
+          "TranslationKey": "server.npcRoles.Lizard_Sand.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768434001346,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Scarak_Louse",
+          "TranslationKey": "server.npcRoles.Scarak_Louse.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768434079368,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Scarak_Fighter",
+          "TranslationKey": "server.npcRoles.Scarak_Fighter.name",
+          "IsMemoriesNameOverridden": true,
+          "CapturedTimestamp": 1768434106762,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Scorpion",
+          "TranslationKey": "server.npcRoles.Scorpion.name",
+          "IsMemoriesNameOverridden": false,
+          "CapturedTimestamp": 1768434343987,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        }
+      ]
+    },
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": -0.7067857296924205,
+        "Y": 0.0,
+        "Z": -0.010986306679156796
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "UBRf+X8qTbaHFY+mgt/eYA==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "0": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 85,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Furniture_Village_Planter",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Ingredient_Sac_Venom",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Ingredient_Void_Essence",
+              "Quantity": 19,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Ingredient_Hide_Heavy",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "28": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "23": {
+              "Id": "Ore_Cobalt",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "16": {
+              "Id": "Ore_Thorium",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "17": {
+              "Id": "Ore_Thorium",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "19": {
+              "Id": "Ore_Thorium",
+              "Quantity": 22,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "18": {
+              "Id": "Ore_Thorium",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "22": {
+              "Id": "Rock_Basalt_Cobble",
+              "Quantity": 28,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "21": {
+              "Id": "Potion_Stamina_Lesser",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Potion_Health_Greater",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Container_Bucket",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "27": {
+              "Id": "Tool_Hoe_Copper",
+              "Quantity": 1,
+              "Durability": 188.0,
+              "MaxDurability": 200.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "15": {
+              "Id": "Ore_Silver",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Rock_Volcanic_Cobble",
+              "Quantity": 24,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Rubble_Basalt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Battleaxe_Stone_Trork",
+              "Quantity": 1,
+              "Durability": 60.0,
+              "MaxDurability": 60.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 18,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Chitin_Sturdy",
+              "Quantity": 8,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 81.5,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 83.5,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 47.5,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 96.0,
+              "MaxDurability": 114.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Weapon_Daggers_Adamantite",
+              "Quantity": 1,
+              "Durability": 140.50000000000225,
+              "MaxDurability": 180.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Weapon_Crossbow_Ancient_Steel",
+              "Quantity": 1,
+              "Durability": 83.71999999999983,
+              "MaxDurability": 180.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Tool_Hatchet_Cobalt",
+              "Quantity": 1,
+              "Durability": 295.75,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 19,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "*Container_Bucket_State_Filled_Water",
+              "Quantity": 1,
+              "Durability": 1.0,
+              "MaxDurability": 1.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Potion_Health_Lesser",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Plant_Fruit_Berries_Red",
+              "Quantity": 66,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Tool_Pickaxe_Cobalt",
+              "Quantity": 1,
+              "Durability": 15.25,
+              "MaxDurability": 260.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Weapon_Shield_Copper",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 16,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Plant_Crop_Chilli_Item",
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Plant_Crop_Health1",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Plant_Crop_Mushroom_Shelve_Green",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Fire_Essence",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Ingredient_Life_Essence",
+              "Quantity": 42,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Plant_Crop_Health3",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Hide_Medium",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Plant_Petals_Green",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Plant_Crop_Mushroom_Cap_Green",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveHotbarSlot": 5,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 1,
+        "SortType": "Type"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 10,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -851.0867309570312,
+              "Y": 123.0,
+              "Z": 77.65274047851562,
+              "Pitch": -0.007024766877293587,
+              "Yaw": -1.6426124572753906,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [
+              {
+                "BlockPosition": {
+                  "X": -836,
+                  "Y": 121,
+                  "Z": 80
+                },
+                "RespawnPosition": {
+                  "X": -835.1000000238419,
+                  "Y": 122.04999995231628,
+                  "Z": 80.47499999403954
+                },
+                "Name": "illoyokse's bed"
+              }
+            ],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-82986465-5533-4b8c-bf08-527159d092d6",
+                "Transform": {
+                  "X": 513.9432983398438,
+                  "Y": 1.2490241527557373,
+                  "Z": -1149.9432373046875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 15
+              }
+            ]
+          }
+        },
+        "DiscoveredZones": [
+          "Oceans",
+          "Zone1_Temple",
+          "Zone4_Shallow_Ocean_Tier5",
+          "ForgottenTemple",
+          "Zone1_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone1_Tier2",
+          "Zone1_Tier1",
+          "Zone4_Shore_Tier4",
+          "Zone3_Tier2",
+          "Zone3_Shore_Tier2",
+          "Zone1_Spawn",
+          "Zone3_Shore_Tier3",
+          "Zone3_Tier3",
+          "Zone4_Tier5",
+          "Zone4_Shore_Tier5",
+          "Zone2_Tier1",
+          "Zone4_Tier4",
+          "Zone2_Tier2",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone2_Tier3",
+          "Zone3_Tier1"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "bA1i9PjGRpGKf6z6FP/I9A==",
+            "$type": "04"
+          },
+          {
+            "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "hnDfsIzeSUu2nuAj77dmxw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "M9jM0OAXSOyeY5TgVfudOQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "9FUWNuTHTFe5qrFR+K9OzA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "NzBU8dUrTJmh2mmmBiodVA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "obk+TtHLQjmzocl56Ucesg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "WZiKAg00StmgChxpO7esrg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "q2FHstk6QseDit/UIQSs7w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "DN3BIH64T5epdzLwl3aDBQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bVBc9JQ5R+Cjr38q9NQDzw==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Weapon_Daggers_Adamantite",
+                "Quantity": 1,
+                "Durability": 178.90000000000006,
+                "MaxDurability": 180.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Food_Wildmeat_Cooked",
+                "Quantity": 18,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Tool_Pickaxe_Cobalt",
+                "Quantity": 1,
+                "Durability": 228.25,
+                "MaxDurability": 277.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "*Container_Bucket_State_Filled_Water",
+                "Quantity": 1,
+                "Durability": 1.0,
+                "MaxDurability": 1.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Potion_Health_Lesser",
+                "Quantity": 10,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Weapon_Crossbow_Ancient_Steel",
+                "Quantity": 1,
+                "Durability": 98.27999999999989,
+                "MaxDurability": 180.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Potion_Stamina_Lesser",
+                "Quantity": 2,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Adventure"
+    },
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "UBRf+X8qTbaHFY+mgt/eYA==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 0.0
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 93.69001770019531,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 61.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 11.0,
+          "Modifiers": {
+            "Effect_MULTIPLICATIVE": {
+              "Id": "Static",
+              "CalculationType": "Multiplicative",
+              "Amount": 1.100000023841858
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.461401104927063,
+        "Yaw": -1.5861488580703735,
+        "Roll": 0.0
+      }
+    }
+  }
+}

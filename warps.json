@@ -1,0 +1,44 @@
+{
+  "Warps": [
+    {
+      "Id": "Adamantite",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-14T18:07:20.532772500Z",
+      "X": -785.5,
+      "Y": 160.0,
+      "Z": -2540.0,
+      "Yaw": 3.1415927410125732
+    },
+    {
+      "Id": "casa",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-14T23:15:11.729642900Z",
+      "X": -852.0,
+      "Y": 124.0,
+      "Z": 91.5,
+      "Yaw": 4.71238899230957
+    },
+    {
+      "Id": "IslaLava",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-14T23:15:40.986519900Z",
+      "X": 410.0,
+      "Y": 127.0,
+      "Z": -1076.5,
+      "Yaw": 4.71238899230957
+    },
+    {
+      "Id": "MaderaAzul",
+      "World": "default",
+      "Creator": "*Teleporter",
+      "CreationDate": "2026-01-14T16:45:44.598178800Z",
+      "X": -758.0,
+      "Y": 121.0,
+      "Z": -513.5,
+      "Yaw": 4.71238899230957
+    }
+  ]
+}
