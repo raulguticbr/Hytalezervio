@@ -8,7 +8,17 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "b1bcddd1-84d7-4835-9520-d8c7c6c04141"
+      "MarkerId": "3380662d-0f67-4d68-980c-dbed0443e330"
+    },
+    "2269814008049565467": {
+      "Position": {
+        "X": -229,
+        "Y": 125,
+        "Z": -1522
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "53721f1b-b644-4032-853b-52e011b06cdc"
     },
     "1963569587320520986": {
       "Position": {
@@ -18,7 +28,17 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "9af90a7f-4f54-4645-a344-582a3d30bb53"
+      "MarkerId": "801253e3-0de4-4f35-b9f0-d5d244f90029"
+    },
+    "2269814131529875250": {
+      "Position": {
+        "X": -206,
+        "Y": 125,
+        "Z": -602
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "a1849f27-f9b3-4b4d-b506-d0f945b09c22"
     }
   }
 }
