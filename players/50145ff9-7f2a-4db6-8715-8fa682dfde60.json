@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -848.4830932617188,
-        "Y": 158.0,
-        "Z": 47.80693054199219
+        "X": -833.3433837890625,
+        "Y": 121.0,
+        "Z": 89.87889862060547
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 8.36703872680664,
+        "Yaw": 1.4927701950073242,
         "Roll": 0.0
       }
     },
@@ -149,7 +149,7 @@
             "0": {
               "Id": "Weapon_Daggers_Adamantite",
               "Quantity": 1,
-              "Durability": 131.70000000000053,
+              "Durability": 131.40000000000055,
               "MaxDurability": 141.0,
               "OverrideDroppedItemAnimation": false
             },
@@ -191,7 +191,7 @@
             "7": {
               "Id": "Tool_Pickaxe_Adamantite",
               "Quantity": 1,
-              "Durability": 314.75,
+              "Durability": 314.5,
               "MaxDurability": 315.0,
               "OverrideDroppedItemAnimation": false
             }
@@ -285,11 +285,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": -848.4830932617188,
-              "Y": 158.0,
-              "Z": 47.80693054199219,
-              "Pitch": -0.2923620343208313,
-              "Yaw": 2.0151968002319336,
+              "X": -833.3433837890625,
+              "Y": 121.0,
+              "Z": 89.87889862060547,
+              "Pitch": -0.08433011174201965,
+              "Yaw": -4.346456527709961,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -373,99 +373,38 @@
                 "Day": 49
               }
             ]
-          },
-          "instance-Forgotten_Temple-1989595f-f8e5-48eb-abe7-3745361a4017": {
-            "LastPosition": {
-              "X": 5097.70654296875,
-              "Y": 169.45010375976562,
-              "Z": 4983.68994140625,
-              "Pitch": -0.3899998366832733,
-              "Yaw": 0.5195481181144714,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
-          },
-          "instance-Forgotten_Temple-af695033-2799-4e60-a62c-03578e47d91b": {
-            "LastPosition": {
-              "X": 5097.8212890625,
-              "Y": 169.4499969482422,
-              "Z": 4983.27197265625,
-              "Pitch": -0.33375030755996704,
-              "Yaw": -1.56795334815979,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
-          },
-          "instance-Forgotten_Temple-f47c50a5-783c-4154-b83c-887b8dc18c28": {
-            "LastPosition": {
-              "X": 5096.4130859375,
-              "Y": 169.45010375976562,
-              "Z": 4983.76416015625,
-              "Pitch": -0.09700711816549301,
-              "Yaw": -1.4894263744354248,
-              "Roll": 0.0
-            },
-            "LastMovementStates": {
-              "Flying": false
-            },
-            "FirstSpawn": false,
-            "DeathPositions": []
           }
         },
         "DiscoveredZones": [
-          "Zone1_Temple",
-          "Zone4_Shallow_Ocean_Tier5",
-          "Zone3_Shallow_Ocean_Tier2",
-          "Zone3_Shallow_Ocean_Tier3",
-          "Zone3_Shore_Tier2",
-          "Zone4_Shore_Tier4",
-          "Zone3_Tier2",
-          "Zone3_Shore_Tier3",
-          "Zone3_Tier3",
-          "Zone4_Shore_Tier5",
-          "Zone4_Shallow_Ocean_Tier4",
-          "Zone3_Tier1",
-          "Oceans",
-          "Zone2_Shore",
+          "Zone4_Tier4",
+          "Zone1_Spawn",
           "ForgottenTemple",
+          "Zone3_Shore_Tier3",
+          "Zone1_Temple",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone2_Shore",
+          "Zone4_Shore_Tier5",
+          "Zone4_Shore_Tier4",
+          "Zone2_Tier3",
+          "Zone2_Tier2",
+          "Zone2_Tier1",
+          "Oceans",
+          "Zone2_Shallow_Ocean",
+          "Zone3_Tier3",
+          "Zone3_Tier2",
+          "Zone3_Tier1",
           "Zone1_Tier3",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone4_Shallow_Ocean_Tier4",
           "Zone1_Tier2",
           "Zone1_Tier1",
-          "Zone1_Spawn",
-          "Zone4_Tier5",
-          "Zone2_Tier1",
-          "Zone2_Shallow_Ocean",
-          "Zone4_Tier4",
-          "Zone2_Tier2",
-          "Zone2_Tier3"
+          "Zone4_Tier5"
         ],
         "DiscoveredInstances": [
           {
-            "$binary": "bA1i9PjGRpGKf6z6FP/I9A==",
-            "$type": "04"
-          },
-          {
-            "$binary": "bVBc9JQ5R+Cjr38q9NQDzw==",
-            "$type": "04"
-          },
-          {
             "$binary": "4WEJutFGSFmk03zXSNPX0A==",
-            "$type": "04"
-          },
-          {
-            "$binary": "r2lQMyeZTmCmLANXjkfZGw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "MxY7VQSISYiqSI1J7RQ3Uw==",
             "$type": "04"
           },
           {
@@ -473,39 +412,7 @@
             "$type": "04"
           },
           {
-            "$binary": "8k7sVUPNRyidX/PGQDytvQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "DN3BIH64T5epdzLwl3aDBQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "obk+TtHLQjmzocl56Ucesg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "9FUWNuTHTFe5qrFR+K9OzA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "KCnrCePzTD+YtDyEinuTLA==",
-            "$type": "04"
-          },
-          {
             "$binary": "WZiKAg00StmgChxpO7esrg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "b+ydA2uMRXWA5T4AMUMinQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "PetQtg4aSTW8tnxK/m3+kg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "NzBU8dUrTJmh2mmmBiodVA==",
             "$type": "04"
           },
           {
@@ -513,19 +420,35 @@
             "$type": "04"
           },
           {
+            "$binary": "DN3BIH64T5epdzLwl3aDBQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bVBc9JQ5R+Cjr38q9NQDzw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "PetQtg4aSTW8tnxK/m3+kg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "MxY7VQSISYiqSI1J7RQ3Uw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "9HxQpXg8QVS4PIh7jcGMKA==",
+            "$type": "04"
+          },
+          {
             "$binary": "M9jM0OAXSOyeY5TgVfudOQ==",
             "$type": "04"
           },
           {
-            "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
+            "$binary": "9FUWNuTHTFe5qrFR+K9OzA==",
             "$type": "04"
           },
           {
-            "$binary": "GYlZX/jlSOur5zdFNhpAFw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "hnDfsIzeSUu2nuAj77dmxw==",
+            "$binary": "NzBU8dUrTJmh2mmmBiodVA==",
             "$type": "04"
           },
           {
@@ -533,7 +456,39 @@
             "$type": "04"
           },
           {
-            "$binary": "9HxQpXg8QVS4PIh7jcGMKA==",
+            "$binary": "obk+TtHLQjmzocl56Ucesg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "GYlZX/jlSOur5zdFNhpAFw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "8k7sVUPNRyidX/PGQDytvQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "r2lQMyeZTmCmLANXjkfZGw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bA1i9PjGRpGKf6z6FP/I9A==",
+            "$type": "04"
+          },
+          {
+            "$binary": "KCnrCePzTD+YtDyEinuTLA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "8xbmpaLDTe2/2hKxsW+FTg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "b+ydA2uMRXWA5T4AMUMinQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "hnDfsIzeSUu2nuAj77dmxw==",
             "$type": "04"
           }
         ],
@@ -550,50 +505,50 @@
               "0": {
                 "Id": "Weapon_Daggers_Adamantite",
                 "Quantity": 1,
-                "Durability": 66.60000000000424,
-                "MaxDurability": 157.0,
+                "Durability": 131.70000000000053,
+                "MaxDurability": 141.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Weapon_Crossbow_Ancient_Steel",
+                "Quantity": 1,
+                "Durability": 158.0,
+                "MaxDurability": 158.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "6": {
+                "Id": "Tool_Hatchet_Adamantite",
+                "Quantity": 1,
+                "Durability": 400.0,
+                "MaxDurability": 400.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "*Container_Bucket_State_Filled_Water",
+                "Quantity": 1,
+                "Durability": 1.0,
+                "MaxDurability": 1.0,
                 "OverrideDroppedItemAnimation": false
               },
               "1": {
-                "Id": "Potion_Health_Lesser",
-                "Quantity": 2,
+                "Id": "Food_Wildmeat_Cooked",
+                "Quantity": 16,
                 "Durability": 0.0,
                 "MaxDurability": 0.0,
                 "OverrideDroppedItemAnimation": false
               },
               "3": {
                 "Id": "Plant_Fruit_Berries_Red",
-                "Quantity": 70,
+                "Quantity": 78,
                 "Durability": 0.0,
                 "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "2": {
-                "Id": "Weapon_Crossbow_Ancient_Steel",
-                "Quantity": 1,
-                "Durability": 107.71999999999989,
-                "MaxDurability": 170.0,
                 "OverrideDroppedItemAnimation": false
               },
               "7": {
                 "Id": "Tool_Pickaxe_Adamantite",
                 "Quantity": 1,
-                "Durability": 32.949999999999996,
-                "MaxDurability": 388.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "6": {
-                "Id": "Tool_Hatchet_Cobalt",
-                "Quantity": 1,
-                "Durability": 164.10000000000002,
-                "MaxDurability": 281.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "8": {
-                "Id": "*Container_Bucket_State_Filled_Water",
-                "Quantity": 1,
-                "Durability": 0.9,
-                "MaxDurability": 1.0,
+                "Durability": 314.75,
+                "MaxDurability": 315.0,
                 "OverrideDroppedItemAnimation": false
               }
             }
@@ -641,7 +596,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0,
+          "Value": 168.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
@@ -694,8 +649,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.2923620343208313,
-        "Yaw": 2.0151968002319336,
+        "Pitch": -0.08433011174201965,
+        "Yaw": -4.346456527709961,
         "Roll": 0.0
       }
     }
